@@ -19,3 +19,18 @@
         eg: git remote add origin https://github.com/aiwithqasim/git-demo-again.git
 - step10: to push file from local to github repo (in lfight from khi to isl)
         eg: git push -u origin main
+
+
+## Second and other time push code
+
+- 'git add .'
+- 'git commit -m "any message" '
+- 'git push' 
+
+## Branching
+    - step 01 check on which branch you are in
+        'git branch'
+    - step 02 to omve and create new branch
+        e,g 'git checkout -b task/brachname - branch' 
+        if branch already exist 
+            e.g 'git checkout task/branchname - branch'
