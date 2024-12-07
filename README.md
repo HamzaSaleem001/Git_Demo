@@ -34,3 +34,16 @@
         e,g 'git checkout -b task/brachname - branch' 
         if branch already exist 
             e.g 'git checkout task/branchname - branch'
+
+
+# Upstreaming remote & local branches
+
+- task/development-branch
+
+- branching code push
+- pull request to balance main & task/development-branch NOTE: pull request always balance git remote branches
+
+- Now if we want to balance LOCAL main & task/development-branch
+
+        git checkout main
+        git pull ( to take the code from git MAIN branches)
